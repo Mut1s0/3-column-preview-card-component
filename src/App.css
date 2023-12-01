@@ -1,0 +1,62 @@
+.container > section:nth-child(1) {
+  background-color: var(--bright-orange);
+}
+.container > section:nth-child(2) {
+  background-color: var(--dark-cyan);
+}
+.container > section:nth-child(3) {
+  background-color: var(--very-dark-cyan);
+}
+
+.container > section > div > h1 {
+  color: var(--very-light-gray-background-headings-buttons);
+  font-family: var(--ff-BigShouldersDisplay);
+  font-weight: var(--fw-bold);
+}
+
+.container > section > div > p {
+  color: var(--transparent-white-paragraph);
+  font-family: var(--ff-LexendDeca);
+  font-weight: var(--fw-regular);
+}
+
+.container > section > footer > button {
+  background-color: var(--very-light-gray-background-headings-buttons);
+  font-family: var(--ff-LexendDeca);
+}
+
+.container > section:nth-child(1) > footer > button {
+  color: var(--bright-orange);
+  font-weight: var(--fw-bold);
+}
+
+.container > section:nth-child(1) > footer > button:hover {
+  background: var(--bright-orange);
+  color: var(--very-light-gray-background-headings-buttons);
+  border: 3px solid var(--very-light-gray-background-headings-buttons);
+  font-weight: var(--fw-regular);
+}
+
+.container > section:nth-child(2) > footer > button {
+  color: var(--dark-cyan);
+  font-weight: var(--fw-bold);
+}
+
+.container > section:nth-child(2) > footer > button:hover {
+  background: var(--dark-cyan);
+  color: var(--very-light-gray-background-headings-buttons);
+  border: 3px solid var(--very-light-gray-background-headings-buttons);
+  font-weight: var(--fw-regular);
+}
+
+.container > section:nth-child(3) > footer > button {
+  color: var(--very-dark-cyan);
+  font-weight: var(--fw-bold);
+}
+
+.container > section:nth-child(3) > footer > button:hover {
+  background: var(--very-dark-cyan);
+  color: var(--very-light-gray-background-headings-buttons);
+  border: 3px solid var(--very-light-gray-background-headings-buttons);
+  font-weight: var(--fw-regular);
+}
