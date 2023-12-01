@@ -29,7 +29,7 @@ function Column() {
 
                     <footer className="pt-10 md:pb-12">
 
-                        <button className="py-2 md:py-4 px-5 md:px-8 rounded-full text-[12px] md:text-[15px]">Learn More</button>
+                        <button className="py-2 md:py-4 px-5 md:px-8 rounded-full text-[12px] md:text-[14px]">Learn More</button>
 
                     </footer>
 
@@ -53,7 +53,7 @@ function Column() {
 
                     <footer className="pt-10 md:pb-12">
 
-                        <button className="py-2 px-5 rounded-full text-[12px] md:py-4 md:px-8 md:text-[15px]">Learn More</button>
+                        <button className="py-2 px-5 rounded-full text-[12px] md:py-4 md:px-8 md:text-[14px]">Learn More</button>
 
                     </footer>
 
@@ -77,7 +77,7 @@ function Column() {
 
                     <footer className="pt-10 md:pb-12">
 
-                        <button className="py-2 px-5 rounded-full text-[12px] md:py-4 md:px-8 md:text-[15px]">Learn More</button>
+                        <button className="py-2 px-5 rounded-full text-[12px] md:py-4 md:px-8 md:text-[14px]">Learn More</button>
 
                     </footer>
 

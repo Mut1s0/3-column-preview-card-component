@@ -30,12 +30,33 @@
   font-weight: var(--fw-bold);
 }
 
+.container > section:nth-child(1) > footer > button:hover {
+  background: var(--bright-orange);
+  color: var(--very-light-gray-background-headings-buttons);
+  border: 3px solid var(--very-light-gray-background-headings-buttons);
+  font-weight: var(--fw-regular);
+}
+
 .container > section:nth-child(2) > footer > button {
   color: var(--dark-cyan);
   font-weight: var(--fw-bold);
 }
 
+.container > section:nth-child(2) > footer > button:hover {
+  background: var(--dark-cyan);
+  color: var(--very-light-gray-background-headings-buttons);
+  border: 3px solid var(--very-light-gray-background-headings-buttons);
+  font-weight: var(--fw-regular);
+}
+
 .container > section:nth-child(3) > footer > button {
   color: var(--very-dark-cyan);
   font-weight: var(--fw-bold);
+}
+
+.container > section:nth-child(3) > footer > button:hover {
+  background: var(--very-dark-cyan);
+  color: var(--very-light-gray-background-headings-buttons);
+  border: 3px solid var(--very-light-gray-background-headings-buttons);
+  font-weight: var(--fw-regular);
 }
