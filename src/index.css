@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors */
+  --very-dark-cyan: hsl( 179, 100%, 13% );
+  --bright-orange: hsl( 31, 77%, 52% );
+  --dark-cyan: hsl( 184, 100%, 22% );
+
+  --very-light-gray-background-headings-buttons: hsl( 0, 0%, 95% );
+  --transparent-white-paragraph: hsla( 0, 0%, 100%, 0.75 );
+
+  --ff-BigShouldersDisplay: 'Big Shoulders Display', sans-serif;
+  --ff-LexendDeca: 'Lexend Deca', sans-serif;
 }
