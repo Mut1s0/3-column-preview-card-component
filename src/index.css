@@ -16,3 +16,11 @@
   --ff-BigShouldersDisplay: 'Big Shoulders Display', sans-serif;
   --ff-LexendDeca: 'Lexend Deca', sans-serif;
 }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: var(--very-light-gray-background-headings-buttons);
+}
